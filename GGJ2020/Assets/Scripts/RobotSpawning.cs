@@ -27,10 +27,11 @@ public class RobotSpawning : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        spawnChecker();
+
     }
 
-    void spawnChecker ()
+    void spawnChecker()
     {
         if (sessionStarted == false)
         {
@@ -43,12 +44,24 @@ public class RobotSpawning : MonoBehaviour
 
             if (couple1Finished == true && couple2Finished == false)
             {
-                
+                sessionStarted = true;
+                Instantiate(secondCouple);
+            }
+
+            if (couple2Finished == true)
+            {
+                sessionStarted = true;
+                Instantiate(thirdCouple);
             }
         }
     }
 
-    public void ButtonTesting ()
+    void CompletedSession()
+    {
+        
+    }
+
+    public void ButtonTesting()
     {
 
     }
