@@ -26,6 +26,7 @@ public class RobotSpawning : MonoBehaviour
         couple3Finished = false;
     }
 
+
     public void ButtonTesting()
     {
         //spawnChecker();
@@ -33,12 +34,14 @@ public class RobotSpawning : MonoBehaviour
         if (currentCouple == 0)
         {
             Instantiate(firstCouple);
+            firstCouple.SetActive(true);
         }
 
         if (currentCouple == 1)
         {
             firstCouple.SetActive(false);
             Instantiate(secondCouple);
+            secondCouple.SetActive(true);
         }
 
         if (currentCouple == 2)
