@@ -26,74 +26,30 @@ public class RobotSpawning : MonoBehaviour
         couple3Finished = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        //spawnChecker();
-        //CompletedSession();
-    }
-
-    void spawnChecker()
-    {
-        if (sessionStarted == false)
-        {
-            if (couple1Finished == false)
-            {
-                Instantiate(firstCouple);
-            }
-
-            if (couple1Finished == true && couple2Finished == false)
-            {
-                Instantiate(secondCouple);
-            }
-
-            if (couple2Finished == true)
-            {
-                Instantiate(thirdCouple);
-            }
-            //sessionStarted = true;
-        }
-    }
-
-    void CompletedSession()
-    {
-        if (couple1Finished == true)
-        {
-            firstCouple.SetActive(false);
-        }
-
-        if (couple2Finished == true)
-        {
-            secondCouple.SetActive(false);
-        }
-
-        if (couple3Finished == true)
-        {
-            thirdCouple.SetActive(false);
-        }
-    }
-
     public void ButtonTesting()
     {
-        spawnChecker();
+        //spawnChecker();
         
         if (currentCouple == 0)
         {
-            couple1Finished = true;
+            Instantiate(firstCouple);
         }
 
         if (currentCouple == 1)
         {
-            couple2Finished = true;
+            firstCouple.SetActive(false);
+            Instantiate(secondCouple);
         }
 
         if (currentCouple == 2)
         {
-            couple3Finished = true;
+            secondCouple.SetActive(false);
+            Instantiate(thirdCouple);
         }
 
-        if (currentCouple >= 4)
+        if (currentCouple >= 3)
         {
+            thirdCouple.SetActive(false);
             currentCouple = 0;
         }
 
