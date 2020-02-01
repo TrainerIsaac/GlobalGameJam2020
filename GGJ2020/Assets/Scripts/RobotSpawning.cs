@@ -27,7 +27,7 @@ public class RobotSpawning : MonoBehaviour
     }
 
 
-    public void ButtonTesting()
+    public void Spawner()
     {
         //spawnChecker();
         
