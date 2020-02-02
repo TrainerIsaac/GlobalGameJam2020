@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/CookethScene.unity
+    guid: 69bd1c4e91973324c9dc59bd15d572fc
+  - enabled: 1
+    path: Assets/Scenes/JacobScene.unity
+    guid: d6f822aacd8e88e438fc56b165cba713
   m_configObjects: {}
