@@ -520,8 +520,6 @@ GameObject:
   - component: {fileID: 196454115}
   - component: {fileID: 196454120}
   - component: {fileID: 196454119}
-  - component: {fileID: 196454122}
-  - component: {fileID: 196454121}
   - component: {fileID: 196454123}
   - component: {fileID: 196454124}
   - component: {fileID: 196454125}
@@ -546,7 +544,6 @@ GameObject:
   - component: {fileID: 196454147}
   - component: {fileID: 196454146}
   - component: {fileID: 196454144}
-  - component: {fileID: 196454145}
   - component: {fileID: 196454148}
   - component: {fileID: 196454150}
   - component: {fileID: 196454149}
@@ -571,7 +568,6 @@ GameObject:
   - component: {fileID: 196454174}
   - component: {fileID: 196454173}
   - component: {fileID: 196454172}
-  - component: {fileID: 196454171}
   - component: {fileID: 196454170}
   - component: {fileID: 196454166}
   - component: {fileID: 196454177}
@@ -626,6 +622,26 @@ GameObject:
   - component: {fileID: 196454218}
   - component: {fileID: 196454210}
   - component: {fileID: 196454226}
+  - component: {fileID: 196454228}
+  - component: {fileID: 196454227}
+  - component: {fileID: 196454171}
+  - component: {fileID: 196454231}
+  - component: {fileID: 196454230}
+  - component: {fileID: 196454229}
+  - component: {fileID: 196454236}
+  - component: {fileID: 196454235}
+  - component: {fileID: 196454234}
+  - component: {fileID: 196454233}
+  - component: {fileID: 196454232}
+  - component: {fileID: 196454122}
+  - component: {fileID: 196454121}
+  - component: {fileID: 196454238}
+  - component: {fileID: 196454240}
+  - component: {fileID: 196454239}
+  - component: {fileID: 196454242}
+  - component: {fileID: 196454241}
+  - component: {fileID: 196454237}
+  - component: {fileID: 196454243}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -646,11 +662,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -570.7152, y: 425.59766}
+  scrollPos: {x: -16.867218, y: 479.45453}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 252
-  zoom: 0.60999984
+  zoom: 0.39999998
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -723,11 +739,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 196454117}
   commandList:
-  - {fileID: 196454121}
   - {fileID: 196454115}
   - {fileID: 196454123}
   - {fileID: 196454119}
-  - {fileID: 196454122}
   - {fileID: 196454127}
 --- !u!114 &196454117
 MonoBehaviour:
@@ -801,7 +815,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 155.36374
     y: 70.36364
-    width: 128.68854
+    width: 125.00001
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -822,16 +836,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 196454113}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 6
+  itemId: 136
   indentLevel: 0
-  duration: 0.1
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
+  storyText: W-What?
+  description: 
+  character: {fileID: 2706370303532562056}
+  portrait: {fileID: 21300000, guid: d43a0d481ae5af74cbae41e4cf981820, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &196454122
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -841,16 +863,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 196454113}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 5
+  itemId: 135
   indentLevel: 0
-  duration: 1
-  targetAlpha: 0
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
+  storyText: 'YOU AREN''T WORKING AT HOME ARE YOU? '
+  description: 
+  character: {fileID: 3805319314311756802}
+  portrait: {fileID: 21300000, guid: 42ec5cc61f3571248a23d511cec9d051, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &196454123
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -858,7 +888,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 196454113}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
   m_Name: 
@@ -883,7 +913,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 8
   indentLevel: 0
-  storyText: Hey, how you doing? Name's CH0NK.
+  storyText: H-Hello! I'm CH0NK
   description: 
   character: {fileID: 2706370303532562056}
   portrait: {fileID: 21300000, guid: d43a0d481ae5af74cbae41e4cf981820, type: 3}
@@ -987,7 +1017,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 297.13995
     y: 128.09444
-    width: 186.06561
+    width: 170
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1038,7 +1068,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 525.1363
     y: 155.40909
-    width: 156.5574
+    width: 147.5
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1187,7 +1217,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1051.9001
     y: 313.2775
-    width: 136.88527
+    width: 132.5
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1274,7 +1304,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1066.1791
     y: 216.09833
-    width: 359.83615
+    width: 340.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1284,7 +1314,6 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 196454146}
-  - {fileID: 196454145}
   - {fileID: 196454144}
   - {fileID: 196454175}
   - {fileID: 196454166}
@@ -1331,7 +1360,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1060.0924
     y: 146.12077
-    width: 148.36069
+    width: 140
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1421,24 +1450,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &196454145
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196454113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 32
-  indentLevel: 0
-  _duration:
-    floatRef: {fileID: 0}
-    floatVal: 1
-  durationOLD: 0
 --- !u!114 &196454146
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1626,7 +1637,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1662.7029
     y: -65.572525
-    width: 135.24593
+    width: 125.00001
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1638,6 +1649,8 @@ MonoBehaviour:
   - {fileID: 196454152}
   - {fileID: 196454161}
   - {fileID: 196454162}
+  - {fileID: 196454171}
+  - {fileID: 196454231}
 --- !u!114 &196454154
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1796,7 +1809,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1247.0458
     y: -66.217
-    width: 277.8689
+    width: 257.5
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1808,7 +1821,7 @@ MonoBehaviour:
   - {fileID: 196454159}
   - {fileID: 196454158}
   - {fileID: 196454157}
-  - {fileID: 196454171}
+  - {fileID: 196454227}
 --- !u!114 &196454161
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1924,7 +1937,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1209.7993
     y: 567.6905
-    width: 127.0492
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2077,11 +2090,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 66
+  itemId: 126
   indentLevel: 0
-  text: 
+  text: Ask CH0NK if he is addicted to their work
   description: 
-  targetBlock: {fileID: 196454153}
+  targetBlock: {fileID: 196454228}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -2156,7 +2169,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1560.7993
     y: 522.6905
-    width: 212.29512
+    width: 192.50002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2268,7 +2281,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1526.5444
     y: 300.56158
-    width: 171.31151
+    width: 157.5
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2326,7 +2339,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1504.4218
     y: 112.424484
-    width: 227.04922
+    width: 207.50002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2730,7 +2743,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1820.9327
     y: 117.324455
-    width: 140.16396
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2783,7 +2796,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1790.9423
     y: 425.70834
-    width: 161.47543
+    width: 152.5
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2838,7 +2851,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2088.8857
     y: 567.6969
-    width: 171.31151
+    width: 155
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2974,7 +2987,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2086.026
     y: 243.76595
-    width: 202.45906
+    width: 185.00002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3156,7 +3169,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2706.2454
     y: 189.62729
-    width: 138.52461
+    width: 125.00001
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3252,7 +3265,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2089.7988
     y: 435.59955
-    width: 169.67216
+    width: 160
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3541,6 +3554,454 @@ MonoBehaviour:
   text: Ask CH0NK if they will change
   description: 
   targetBlock: {fileID: 196454195}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &196454227
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 125
+  indentLevel: 0
+  text: Ask CH0NK about distraction
+  description: 
+  targetBlock: {fileID: 196454153}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &196454228
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1922.8086
+    y: -61.859375
+    width: 152.5
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 124
+  blockName: SQU4RE's revelation
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 196454230}
+  - {fileID: 196454229}
+  - {fileID: 196454236}
+  - {fileID: 196454234}
+  - {fileID: 196454235}
+  - {fileID: 196454122}
+  - {fileID: 196454121}
+  - {fileID: 196454233}
+  - {fileID: 196454232}
+  - {fileID: 196454242}
+--- !u!114 &196454229
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 129
+  indentLevel: 0
+  storyText: A little, but maybe when I bring my work home with me I'm not always
+    working.
+  description: 
+  character: {fileID: 2706370303532562056}
+  portrait: {fileID: 21300000, guid: d43a0d481ae5af74cbae41e4cf981820, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &196454230
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 128
+  indentLevel: 0
+  storyText: '...'
+  description: 
+  character: {fileID: 2706370303532562056}
+  portrait: {fileID: 21300000, guid: d43a0d481ae5af74cbae41e4cf981820, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &196454231
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 127
+  indentLevel: 0
+  text: Ask CH0NK if they will change, in order to manage their time better
+  description: 
+  targetBlock: {fileID: 196454195}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &196454232
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 134
+  indentLevel: 0
+  storyText: Oh no, I've upset you again...
+  description: 
+  character: {fileID: 2706370303532562056}
+  portrait: {fileID: 21300000, guid: d43a0d481ae5af74cbae41e4cf981820, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &196454233
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 133
+  indentLevel: 0
+  storyText: I KNOW EXACTLY WHAT YOU'RE IMPLYING AND IM DISGUSTED CH0NK, DIGUSTED!
+  description: 
+  character: {fileID: 3805319314311756802}
+  portrait: {fileID: 21300000, guid: 42ec5cc61f3571248a23d511cec9d051, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &196454234
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 132
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &196454235
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 131
+  indentLevel: 0
+  storyText: Wait a minute.
+  description: 
+  character: {fileID: 3805319314311756802}
+  portrait: {fileID: 21300000, guid: 42ec5cc61f3571248a23d511cec9d051, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &196454236
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 130
+  indentLevel: 0
+  storyText: I'm just a bit passionate about passion...
+  description: 
+  character: {fileID: 2706370303532562056}
+  portrait: {fileID: 21300000, guid: d43a0d481ae5af74cbae41e4cf981820, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &196454237
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 149
+  indentLevel: 0
+  storyText: I'm so sorry, I have a bit of a problem, I promise to change and spend
+    more time with you, only if you calm down a bit.
+  description: 
+  character: {fileID: 2706370303532562056}
+  portrait: {fileID: 21300000, guid: d43a0d481ae5af74cbae41e4cf981820, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &196454238
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 2211.6636
+    y: -65.13808
+    width: 147.5
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 151
+  blockName: CH0NKS confession
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 196454241}
+  - {fileID: 196454240}
+  - {fileID: 196454237}
+  - {fileID: 196454239}
+  - {fileID: 196454243}
+--- !u!114 &196454239
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 141
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &196454240
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 138
+  indentLevel: 0
+  storyText: Okay! Look, I take my work home with me, but I don't work, I actually
+    indulge in my adult entertainment.
+  description: 
+  character: {fileID: 2706370303532562056}
+  portrait: {fileID: 21300000, guid: d43a0d481ae5af74cbae41e4cf981820, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &196454241
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 148
+  indentLevel: 0
+  storyText: YES IM UPSET, BUT YOU ALWAYS PLAY THE VICTIM EVEN THOUGH YOU ARE THE
+    PROBLEM *Bzzt*
+  description: 
+  character: {fileID: 3805319314311756802}
+  portrait: {fileID: 21300000, guid: 42ec5cc61f3571248a23d511cec9d051, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &196454242
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 147
+  indentLevel: 0
+  text: Ask CH0NK if he is addicted to their work
+  description: 
+  targetBlock: {fileID: 196454238}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &196454243
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 150
+  indentLevel: 0
+  text: Ask CH0NK if he is addicted to their work
+  description: 
+  targetBlock: {fileID: 196454211}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
