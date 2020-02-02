@@ -612,11 +612,20 @@ GameObject:
   - component: {fileID: 196454212}
   - component: {fileID: 196454213}
   - component: {fileID: 196454211}
-  - component: {fileID: 196454210}
   - component: {fileID: 196454216}
   - component: {fileID: 196454217}
   - component: {fileID: 196454215}
   - component: {fileID: 196454214}
+  - component: {fileID: 196454221}
+  - component: {fileID: 196454220}
+  - component: {fileID: 196454219}
+  - component: {fileID: 196454225}
+  - component: {fileID: 196454224}
+  - component: {fileID: 196454223}
+  - component: {fileID: 196454222}
+  - component: {fileID: 196454218}
+  - component: {fileID: 196454210}
+  - component: {fileID: 196454226}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -637,11 +646,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 365.05612, y: 444.6694}
+  scrollPos: {x: -547.9836, y: 206.6955}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 251
-  zoom: 0.46000046
+  blockViewHeight: 252
+  zoom: 0.66999984
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -792,7 +801,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 155.36374
     y: 70.36364
-    width: 126.08688
+    width: 121.64181
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -978,7 +987,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 297.13995
     y: 128.09444
-    width: 182.60857
+    width: 173.88063
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1029,7 +1038,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 525.1363
     y: 155.40909
-    width: 154.34772
+    width: 147.01495
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1178,7 +1187,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1051.9001
     y: 313.2775
-    width: 136.95644
+    width: 129.10449
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1265,7 +1274,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1066.1791
     y: 216.09833
-    width: 360.86926
+    width: 332.08963
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1322,7 +1331,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1060.0924
     y: 146.12077
-    width: 141.30426
+    width: 139.55226
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1617,7 +1626,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1662.7029
     y: -65.572525
-    width: 130.4347
+    width: 127.61196
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1787,7 +1796,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1247.0458
     y: -66.217
-    width: 271.7389
+    width: 257.46274
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1915,7 +1924,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1209.7993
     y: 567.6905
-    width: 120
+    width: 120.14927
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2147,7 +2156,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1560.7993
     y: 522.6905
-    width: 208.6955
+    width: 197.76123
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2161,6 +2170,7 @@ MonoBehaviour:
   - {fileID: 196454170}
   - {fileID: 196454182}
   - {fileID: 196454183}
+  - {fileID: 196454221}
 --- !u!114 &196454175
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2258,7 +2268,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1526.5444
     y: 300.56158
-    width: 169.5651
+    width: 160.44778
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2314,9 +2324,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1525.8076
-    y: 143.25441
-    width: 223.91287
+    x: 1504.4218
+    y: 112.424484
+    width: 211.19406
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2329,6 +2339,7 @@ MonoBehaviour:
   - {fileID: 196454186}
   - {fileID: 196454185}
   - {fileID: 196454184}
+  - {fileID: 196454226}
 --- !u!114 &196454181
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2717,9 +2728,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1815.9532
-    y: 261.59518
-    width: 136.95644
+    x: 1820.9327
+    y: 117.324455
+    width: 132.08957
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2772,7 +2783,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1790.9423
     y: 425.70834
-    width: 154.34772
+    width: 151.49255
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2827,7 +2838,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2088.8857
     y: 567.6969
-    width: 169.5651
+    width: 160.44778
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2838,6 +2849,9 @@ MonoBehaviour:
   commandList:
   - {fileID: 196454217}
   - {fileID: 196454216}
+  - {fileID: 196454219}
+  - {fileID: 196454220}
+  - {fileID: 196454223}
 --- !u!114 &196454200
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2959,8 +2973,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 2086.026
-    y: 258.83447
-    width: 199.99985
+    y: 243.76595
+    width: 188.806
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3114,22 +3128,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 196454113}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 108
+  itemId: 122
   indentLevel: 0
-  text: Ask CH0NK how they will change
-  description: 
+  targetFlowchart: {fileID: 0}
   targetBlock: {fileID: 196454211}
-  hideIfVisited: 0
-  interactable:
-    booleanRef: {fileID: 0}
-    booleanVal: 1
-  setMenuDialog: {fileID: 0}
-  hideThisOption:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
 --- !u!114 &196454211
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3144,9 +3154,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 2703.2605
-    y: 186.64221
-    width: 136.95644
+    x: 2706.2454
+    y: 189.62729
+    width: 130.59703
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3154,7 +3164,8 @@ MonoBehaviour:
   blockName: Forced Decision
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 196454218}
 --- !u!114 &196454212
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3241,7 +3252,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 2089.7988
     y: 435.59955
-    width: 167.39119
+    width: 158.95526
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3249,7 +3260,10 @@ MonoBehaviour:
   blockName: Ask for CH0NKs input
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 196454225}
+  - {fileID: 196454224}
+  - {fileID: 196454222}
 --- !u!114 &196454216
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3264,7 +3278,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 109
   indentLevel: 0
-  storyText: 
+  storyText: 'Excuse me? Don''t try to change the topic! CH0NK is the one causing
+    the problems, not ME. *Bzzzt* '
   description: 
   character: {fileID: 3805319314311756802}
   portrait: {fileID: 21300000, guid: 42ec5cc61f3571248a23d511cec9d051, type: 3}
@@ -3304,6 +3319,236 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &196454218
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 121
+  indentLevel: 0
+  storyText: 'You have come to the end of the session, you may use the PC on the desk
+    to check back previous dialgoue. You need to select one item to help this couple''s
+    relationship. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &196454219
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 115
+  indentLevel: 0
+  storyText: '...'
+  description: 
+  character: {fileID: 2706370303532562056}
+  portrait: {fileID: 21300000, guid: d43a0d481ae5af74cbae41e4cf981820, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &196454220
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 114
+  indentLevel: 0
+  storyText: Why are you always so mean to me?
+  description: 
+  character: {fileID: 2706370303532562056}
+  portrait: {fileID: 21300000, guid: d43a0d481ae5af74cbae41e4cf981820, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &196454221
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 113
+  indentLevel: 0
+  text: Ask about how SQU4RE feels
+  description: 
+  targetBlock: {fileID: 196454197}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &196454222
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 120
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 196454211}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &196454223
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 119
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 196454211}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &196454224
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 118
+  indentLevel: 0
+  storyText: Be a bit less aggressive...
+  description: 
+  character: {fileID: 2706370303532562056}
+  portrait: {fileID: 21300000, guid: d43a0d481ae5af74cbae41e4cf981820, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &196454225
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 117
+  indentLevel: 0
+  storyText: I'd like SQU4RE to leave me to my "work". Mostly though, I'd love for
+    them to um...
+  description: 
+  character: {fileID: 2706370303532562056}
+  portrait: {fileID: 21300000, guid: d43a0d481ae5af74cbae41e4cf981820, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &196454226
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196454113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 123
+  indentLevel: 0
+  text: Ask CH0NK if they will change
+  description: 
+  targetBlock: {fileID: 196454195}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!1 &209008893
 GameObject:
   m_ObjectHideFlags: 0
@@ -5802,6 +6047,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: CH0NK
       objectReference: {fileID: 0}
+    - target: {fileID: 2706370303532562056, guid: 9c1f8c2ee1033b84b914a9187bf95fe8,
+        type: 3}
+      propertyPath: setSayDialog
+      value: 
+      objectReference: {fileID: 1799559234}
     - target: {fileID: 6038923761662054149, guid: 9c1f8c2ee1033b84b914a9187bf95fe8,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5857,11 +6107,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2706370303532562056, guid: 9c1f8c2ee1033b84b914a9187bf95fe8,
-        type: 3}
-      propertyPath: setSayDialog
-      value: 
-      objectReference: {fileID: 1799559234}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c1f8c2ee1033b84b914a9187bf95fe8, type: 3}
 --- !u!1001 &7387731883035186765
