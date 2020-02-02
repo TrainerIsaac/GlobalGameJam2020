@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: ST4CEY
+  nameText: STAC3Y
   nameColor: {r: 0.8000001, g: 0.40000004, b: 0.8000001, a: 1}
   soundEffect: {fileID: 0}
   portraits:

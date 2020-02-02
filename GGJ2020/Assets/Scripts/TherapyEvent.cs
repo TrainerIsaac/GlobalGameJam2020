@@ -62,8 +62,10 @@ public class TherapyEvent : MonoBehaviour
     //function to be called in fungus when therapy session is over
     public void TherapyEnd()
     {
+
+        therapyEvent = false;
         //checks which point brackets the player is in for their session, fungus will update the majororminor to the value it needs to be
-        if(therapyTimer <= timerA)
+        if (therapyTimer <= timerA)
         {
             points += timeBracketA;
         }
@@ -96,7 +98,6 @@ public class TherapyEvent : MonoBehaviour
         //stores the score, resets the points, stops the timer and resets the timer
         coupleScore = points;
         points = 0;
-        therapyEvent = false;
         therapyTimer = 0;
 
     }
