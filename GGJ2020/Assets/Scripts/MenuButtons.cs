@@ -6,9 +6,11 @@ using UnityEngine.SceneManagement;
 public class MenuButtons : MonoBehaviour
 {
 
+    [SerializeField] int levelID;
+
     public void GameStart ()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(levelID);
     }
 
     public void ExitGame ()
