@@ -662,7 +662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -16.867218, y: 479.45453}
+  scrollPos: {x: 883.1328, y: 511.95453}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 252
@@ -3347,7 +3347,7 @@ MonoBehaviour:
   itemId: 121
   indentLevel: 0
   storyText: 'You have come to the end of the session, you may use the PC on the desk
-    to check back previous dialgoue. You need to select one item to help this couple''s
+    to check back previous dialgoue. You need to select two items to help this couple''s
     relationship. '
   description: 
   character: {fileID: 0}
