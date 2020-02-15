@@ -1395,7 +1395,7 @@ GameObject:
   - component: {fileID: 185743843}
   - component: {fileID: 185743842}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Parts Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1529,7 +1529,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -156, y: 69.3}
+  m_AnchoredPosition: {x: -87, y: 69.3}
   m_SizeDelta: {x: 312, y: 121.899994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &189121318
@@ -12727,7 +12727,7 @@ GameObject:
   - component: {fileID: 1247422662}
   - component: {fileID: 1247422661}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Open Parts Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12749,7 +12749,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -156, y: 69.3}
+  m_AnchoredPosition: {x: -87, y: 69.3}
   m_SizeDelta: {x: 312, y: 121.899994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1247422661
@@ -15946,7 +15946,7 @@ GameObject:
   - component: {fileID: 1794152240}
   - component: {fileID: 1794152239}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Pop up menu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15998,7 +15998,7 @@ RectTransform:
   m_GameObject: {fileID: 1794152238}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.750923, y: 0.750923, z: 0.750923}
+  m_LocalScale: {x: 0.48337388, y: 0.48337388, z: 0.48337388}
   m_Children:
   - {fileID: 1217508952}
   - {fileID: 1893767316}
@@ -16014,7 +16014,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -22.836, y: 44}
+  m_AnchoredPosition: {x: -18.085022, y: 44}
   m_SizeDelta: {x: 374.40002, y: 816.1}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!1 &1798052263
